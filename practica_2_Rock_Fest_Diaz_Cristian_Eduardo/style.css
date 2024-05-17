@@ -1,0 +1,71 @@
+*{margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif;}
+body{
+    background-color:  #112A4B;
+}
+header{background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+    }
+header h1 a{
+    margin: 0 0 0 70px;
+}
+header h1 a img{
+    width: 15%;
+}
+/*listo la parte de arriba*/
+main{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+main h2{
+    margin-top: 30px;
+    padding: 10px;
+}
+main picture img{
+    width: 675px;
+}
+main picture figcaption{
+    color: grey;
+    margin-left: 5px;
+}
+main picture figcaption a:link, main picture figcaption a:visited{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+main section p{
+    margin: 25px 0 0 15px;
+    font-weight: bold;
+    font-size: 90%;
+}
+main section p a{ 
+    width: 70px; 
+    height: 18px; 
+    background-color: rgb(86, 86, 243); 
+    display: block; 
+    color: white; 
+    border-radius: 5px;
+    text-align: center; 
+    text-decoration: none; 
+    float: right; 
+    margin-right: 70px;
+}
+/*listo el main*/
+footer{
+    background-color: black;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
